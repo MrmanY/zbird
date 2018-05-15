@@ -198,3 +198,27 @@ width: 660px;height: 322px;}
 .select_more{padding-top: 20px;}
 .shop_dynamic_l dl a:hover{color:#ff8a81}
 .shop_dynamic_r{float: right;}
+/* 尾部 */
+/* 图标 */
+.foot_bg{width: 100%;background: #FDF2EC}
+.footer{width: 1180px;margin: 0 auto}
+.footer_img{width: 100%;height: 66px;background: url(../images/footer_lnks.jpg) no-repeat;}
+.footer_img a{float: left;;height: 100%;}
+.footer_banner1{width: 201px}
+.footer_banner2{width: 195px}
+.footer_banner3{width: 227px}
+.footer_banner4{width: 197px}
+.footer_banner5{width: 198px}
+.footer_banner6{width: 162px}
+/* 信息 */
+.footer_info{height: 1180px;width: 100%}
+.footer_info_l{float: left;width: 85px;height: 90px;margin: 44px 0 0 30px;background: url(../images/footer_logo.jpg)
+no-repeat;margin-right: 82px;}
+.footer_info ul{float: left;margin-top: 38px;width: 144px;}
+.footer_info ul h4{width: 96px;height: 23px;color: #666;}
+.footer_info ul a{width: 96px;line-height: 22px;color: #999;}
+.footer_info_r{float: right;width: 214px;height: 120px;background: url(../images/web_code.jpg) 
+no-repeat;margin-top: 30px;}
+.fot_phone{display: block;text-align: center;width: 100%}
+.fot_phone a{margin: 0 auto;width: 488px; height: 60px;display: block;background: url(../images/fot_consult.jpg)
+no-repeat}
