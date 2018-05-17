@@ -20,7 +20,7 @@ body{font:12px/1em "宋体";font-family: Arial, "宋体";}
 .top_right{float: right; height: 34px; line-height: 33px; position: relative;}
 .top_right li{float: left; margin-left: 14px;height: 33px;border: 1px solid #F8E3DF}
 /* 购物车*/
-#shop_car {padding: 0 14px 0 8px;position: relative;z-index: 2;line-height: 32px}
+#shop_car {padding: 0 14px 0 8px;position: relative;z-index: 5;line-height: 32px}
 /* 鼠标放入有效果的li */
 /* 购物车数量 */
 #shop_car span{color:#FF8A81;font-size: 13px;font-weight: bold;margin-right: -1px;padding-left: 3px;}
@@ -34,16 +34,17 @@ margin: 7px 10px 0 0}
 .icon_drop{width: 5px; height: 6px; display: inline-block; background: url(../images/icon_drop.png) 
 no-repeat;margin-left: 5px;}
 /* js控制效果，使.shop_car_list{display: block} */
-.shop_car_list{width: 240px; height: 61px;border: 1px solid  #FF8A81;position: absolute;left: 12px;
-top: 34px;line-height: 61px;text-align: center;background: #fff;display: none}
+.shop_car_list{width: 240px; height: 61px;border: 1px solid  #FF8A81;position: absolute;left: 14px;
+top: 34px;line-height: 61px;text-align: center;background: #fff;display: none;z-index: 4;}
 /* 我的鸟巢 */
 #my_bird{margin-right: 8px;z-index: 3;padding:0 2px 0 7px;}
 #my_bird,#htc{position: relative;}
 /* 我的鸟巢  效果列表*/
 .my_bird_list{position: absolute;border: 1px solid  #FF8A81;position: absolute;left: -1px;top: 33px;
 width: 100%;padding: 4px 0;background: #fff;line-height: 20px;border-top: none;display: none}
-.my_bird_list li{margin-left: 5px;padding-bottom: 2px;}      
-.my_bird_list li a{color: #686767}                                                                                          
+.my_bird_list li{margin-left: 5px;padding-bottom: 2px;border: none;height: 18px;}      
+.my_bird_list li a{color: #686767}
+.my_bird_list li a:hover{color: #FF8A81;}                                                                                          
 /* 手机官网 */
 #htc{z-index: 4;padding: 0 4px 0 6px;}
 .htc_list{width: 232px;height: 156px;position: absolute;top: 34px; right: 0; border: 1px solid  #FF8A81;
@@ -100,8 +101,8 @@ font-size: 13px;letter-spacing: 1px}
 .navi_right{float: right}
 /* nav二级菜单 */
 
-.nav_menu_bg1,.nav_menu_bg2,.nav_menu_bg3,.nav_menu_bg4,.nav_menu_bg5,.nav_menu_bg6{
-background: #fff;position: absolute;height: 330px;width: 100%;z-index:10;top: 33px;display: none}
+.nav_menu_bg{background: #fff;position: absolute;height: 330px;width: 100%;z-index:10;top: 33px;
+display: none}
 .nav_menu{width: 1180px;margin: 0 auto;height: 100%}
 .nav_menu a{display: block;color:#666;letter-spacing: 1px;padding-top: 13px;}
 .nav_menu a:hover{color:#f6827a }
@@ -213,11 +214,14 @@ width: 100%;padding-bottom: 11px;}
 .shop_identity_item{width: 1065px;float: left}
 .shop_identity_item span{padding: 0 20px;margin-bottom: 13px;display: inline-block;cursor: pointer;}
 .shop_identity_item span:hover{color: #f6827a}
-.shop_identity_active{color: #f6827a}
 /* 门店 */
 .shop_store{padding: 22px 0 21px 0;}
 .shop_store p{float: left;padding-right: 100px;color: #bababa;}
-#shop_stores{float: left;margin-top: -1px} 
+
+/* 体验中心 */
+.shop_stores{float: left;margin-top: -1px;display: none} 
+.shop_stores span{margin-right: 40px; cursor: pointer;}
+.shop_identity_active{color: #f6827a}
 /* 城市轮播图  */
 .shop_banner{width: 1180px;margin: 0 auto;height: 530px;background: #fdeaea}
 .shop_banner ul{float: left}
