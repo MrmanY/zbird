@@ -5,12 +5,13 @@
 .masonry{width: 100%;border-bottom: 1px solid;padding-bottom: 85px;}
 
 .masonry_l{padding: 58px 0 0 77px;float: left;position: relative;}
-.masonry_l_img{width: 400px;height: 400px;border: 1px solid;position: relative;}
+.masonry_l_img{width: 400px;height: 400px;position: relative;}
 .masonry_l_img img{width: 400px;height: 400px;}
 .masonry_l_img .wrap{width: 100%;height: 100%;position: absolute;z-index: 999;}
-.masonry_l_img  .small_box{width: 231px;height: 237px;background: #FDCBC0;opacity: 0.5;top: 0}
+.masonry_l_img  .small_box{width: 228px;height: 238px;background: #FDCBC0;opacity: 0.5;top: 0;left: 0;
+position: absolute;display: none}
 #masonry_l_bigimg{border: 1px solid;position: absolute;overflow: hidden;width: 462px;height: 473px;
-left: 500px;top: 94px;}
+left: 500px;top: 94px;display: none;}
 #masonry_l_bigimg img{width: 800px;height: 800px;position: absolute}
 
 .masonry_img_item{position: relative;}

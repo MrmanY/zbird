@@ -136,7 +136,7 @@ $(function(){
                     }.bind(this))
                 })
             })
-        },
+        }
     }
 
     var options={   // 要触发事件的对象的id/class，和要进行变换的对象的id/class 
@@ -157,6 +157,15 @@ $(function(){
     ]
     new Animation(options,options2,array,".g_recommend_banner_box ul",".g_recommend_iconl",".g_recommend_iconr"); 
 
+    if(!$.cookie("goods")) return;
+    var goodsArray = JSON.parse($.cookie("goods"));
+    console.log(goodsArray);
+    
+    var sum = 0;
+    goodsArray.forEach(function(item){
+        sum +=item.num *1;
+    })
+    $(".service_img2").children().html(sum);
 })
 
 document.onscroll =function(){

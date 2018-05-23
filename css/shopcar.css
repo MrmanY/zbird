@@ -1,0 +1,40 @@
+.shopcar_nav_img{float: right;width: 223px;height:59px;background: url(../images/shopcar_sanbu_1.png) 
+no-repeat;margin: 16px 19px 0 0;}
+.shop_car_bg{width: 1180px;margin: 0 auto;padding: 70px 0 62px 0;}
+.shop_car_top{width: 100%;border-bottom: 1px solid;padding-bottom: 10px;margin-bottom: 2px}
+.shop_car_top span{display: inline-block;margin-left: -3px; text-align: center}
+.shop_car_top .shop_car_word1{width: 250px;padding-left: 85px;text-align: left}
+.shop_car_word2{width: 184px;}
+.shop_car_word3{width: 80px;}
+.shop_car_word4{width: 160px;}
+.shop_car_word5{width: 77px;}
+
+.shop_car_wrap{border-top: 1px solid #CCC}
+.shop_car_wrap li{height: 96px;border-bottom: 1px solid #EEE}
+.shop_car_wrap li img{width: 60px; height: 60px;float: left;margin-top: 19px}
+.shop_car_item_list1{width: 335px;float: left;height: 100%;}
+.shop_car_item_list1 span{float: left;height: 96px;line-height: 96px;margin-left: 10px;color:#333}
+.shop_car_item_list1 span:hover{color: #FF8A81}
+
+.shop_car_item_list2{width: 184px;height: 100%;float: left}
+.shop_car_item_list3{width: 80px;height: 100%;float: left}
+.shop_car_item_list2,.shop_car_item_list3,.shop_car_item_list4,.shop_car_item_list5,.shop_car_item_list6
+{height: 96px;line-height: 96px;color: #999;text-align: center;float: left;}
+.shop_car_item_list4{width: 160px;text-decoration: line-through}
+.shop_car_item_list5{width: 160px;color: #000}
+.shop_car_item_list6{width: 56px;cursor: pointer;}
+/* 购物车操作 */
+.shop_car_opera{color: #666;height: 80px;margin-top: 14px;line-height: 80px;}
+/* 清空购物车 */
+.clear_shopcar{float: left;}
+.clear_shopcar span{cursor: pointer;margin-right: 35px;}
+.goshoping:hover{color: #FF8A81}
+/* 价格总价 */
+.shop_price{float: right;}
+.shop_price span{padding: 0 20px 0 11px;color: #000;height: 80px;line-height: 80px}
+.shop_price em{padding-left: 11px;color: #ff8aa2;font-size: 18px;font-weight: bold;}
+/* 付钱按钮 */
+.pay_money{width: 100%;height: 32px;margin-top: 5px}
+.pay_money span{float: right;width: 130px;height: 32px;background: #FF8A81;color: #FFF;text-align: center;
+line-height: 32px;}
+.pay_money span:hover{opacity: 0.9;}
