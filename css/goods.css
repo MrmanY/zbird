@@ -1,0 +1,51 @@
+.masonry_bg{width: 1180px;margin: 0 auto;padding: 19px 0 100px 0;color: #999}
+.masonry_word a{color: #666}
+.masonry_word a:hover{color: #FF8A81}
+.masonry_word span{padding: 0 2px 0 7px;}
+.masonry{width: 100%;border-bottom: 1px solid;padding-bottom: 85px;}
+
+.masonry_l{padding: 58px 0 0 77px;float: left;position: relative;}
+.masonry_l_img{width: 400px;height: 400px;border: 1px solid;position: relative;}
+.masonry_l_img img{width: 400px;height: 400px;}
+.masonry_l_img .wrap{width: 100%;height: 100%;position: absolute;z-index: 999;}
+.masonry_l_img  .small_box{width: 231px;height: 237px;background: #FDCBC0;opacity: 0.5;top: 0}
+#masonry_l_bigimg{border: 1px solid;position: absolute;overflow: hidden;width: 462px;height: 473px;
+left: 500px;top: 94px;}
+#masonry_l_bigimg img{width: 800px;height: 800px;position: absolute}
+
+.masonry_img_item{position: relative;}
+.masonry_img_item ul{margin:5px 0 0 75px;}
+.masonry_img_item li{width: 60px;height: 60px;border: 1px solid #DFDEDE;float: left;margin-right: 8px;}
+.masonry_img_item img{width: 60px;height: 60px;}
+.icon{position: absolute;width: 12px;height: 60px;background: url(../images/btn_next.jpg) no-repeat;
+margin-left: 10px;}
+
+.masonry_r{float: left;margin:51px 0 0 166px;width: 535px;}
+.masonry_r h2{font-size: 22px;color: #000;}
+.masonry_r_pirce{padding: 29px 0 28px;border-bottom: 1px solid #f1f1f1;width: 100%;}
+.masonry_r_pirce>p{height: 20;line-height: 20px;}
+.masonry_r_pirce span{color: #ff8a81;padding: 0 44px 0 14px;}
+.masonry_r_pirce .masonry_r_pirce_active{padding: 0 43px 0 49px;}
+.masonry_r_pirce_active b{font-size: 20px;font-weight: bold;padding-left: 3px;}
+
+.masonry_r_details{padding: 27px 0 12px;border-bottom: 1px solid #f1f1f1;width: 100%}
+.masonry_r_details p{margin-bottom: 17px;}
+.masonry_r_details p span{padding: 0 26px 0 42px; color: #999}
+.masonry_r_details a{color: #666}
+.masonry_r_details a:hover{color: #ff8a81}
+
+.masonry_r_more{padding: 28px 0 90px;}
+.masonry_r_more span,.masonry_r_more div{float: left}
+.masonry_r_more span{padding: 8px 45px 0 0 }
+.masonry_r_more div{width: 140px;height: 28px;border: 1px solid #dedcdd;line-height: 28px;
+text-align: center;cursor: pointer;color: #666;}
+.masonry_r_more div:hover{background: #FDF2EC;border-color: #F8A89D}
+
+#addcar,#stages{width: 138px;height: 32px;background: #ff8a81;border: none;color: #FFF;margin-right: 5px}
+#stages{background: #b7ac7e}
+#addcar:hover,#stages:hover{opacity: 0.9}
+
+.masonry_r_btn div{margin-top: 16px;height: 20px;line-height: 20px;}
+.masonry_r_btn p{float: left}
+.masonry_r_btn span{width: 120px;height: 20px;background: url(../images/share.png) no-repeat;float: left;
+margin-left: 43px;}

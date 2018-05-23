@@ -1,0 +1,80 @@
+/* 对应导航的对应背景图 */
+.nav_img_bg{width: 100%;height: 356px;background: url(http://img.zbird.cn/ww3/weddings/list_pic_wed.jpg) 
+center no-repeat;}
+.nav_img{width: 1180px;height: 100%;margin: 0 auto;padding-top: 16px;}
+.nav_img a{color: #666}
+.nav_img a:hover{color: #FF8A81}
+.nav_img span{padding: 0 2px 0 7px;}
+/* 内容 */
+.content{width: 1180px;margin: 0 auto;padding-top: 35px;}
+/* 左侧内容 */
+.content_nav_l{float: left}
+.content_nav_l_item1{border-top:1px solid;border-bottom: 1px solid;padding:7px 0 22px 14px;width: 167px;
+margin-bottom: 16px;}
+.content_nav_l_item1 div{margin-top: 18px;padding-left: 19px;}
+.content_nav_l_item1_add{background: url(../images/left_category_add.jpg) no-repeat;}
+.content_nav_l_item1_low{background: url(../images/left_category_low.jpg) no-repeat;}
+.content_nav_l_item1 span{display: block;margin-top: 14px;color: #8d8d8d;cursor: pointer;}
+.content_nav_l_item1 span:hover{color: #FF8A81}
+
+.content_nav_l h5{margin-left: 15px;}
+
+.content_nav_l_item2{padding-bottom: 8px}
+.content_nav_l_item2 img{width: 180px;height: 180px;}
+.content_nav_l_item2 h4{color: #666;margin: 2px 0 8px 60px;;}
+.content_nav_l_item2 div{margin-left: 40px;}
+.content_nav_l_item2_pirce{color: #f7827a;font-size: 14px;margin-right: 13px;}
+.content_nav_l_item2_m{color: #999;padding-right: 3px;}
+
+.first{margin-top: 20px;}
+.content_nav_l_item3{margin-top: 12px;}
+.content_nav_l_item3 img{width: 181px;height: 213;}
+/* 右侧内容 */
+.content_nav{position: relative;}
+.content_nav_r{float: right;width: 945px;border-top: 1px solid}
+.content_nav_r_item1{border-bottom:1px solid #f3f3f4;padding: 13px 0 13px 39px;}
+.content_nav_r_item1 span{width: 90px;display: inline-block;border-right: 1px solid #ccc;margin-right: 39px;}
+.content_nav_r_item1 a{margin-right: 40px}
+.content_nav_r_item1 a:hover{color: #f7827a}
+.content_nav_r_item1_active{color: #f7827a}
+.content_nav_r_serch{position: absolute;width:128px;height: 26px;cursor: pointer;left: 45%;
+border: 1px solid  #f3f3f4;border-top-color: #FFF;top:116px;line-height: 26px;text-align: center}
+.content_nav_r_serch:hover{color: #f7827a}
+.content_nav_r_item2{margin-top: 35px;border-bottom:1px solid #f3f3f4}
+.content_nav_r_item2 div{width: 120px;height: 42px;;border-bottom: 2px solid #FFF;float: left;
+line-height: 42px;text-align: center;}
+.content_nav_r_item2 .content_nav_r_item2_bor{border-bottom-color: #f5827b;margin-right: 1px;margin-left: 370px;
+color: #f87d74}
+.content_nav_r_item2_bor span{border-right: 1px solid #CCC;width: 120px;display: inline-block;
+height: 16px;line-height: 16px;}
+
+.content_nav_r_pageTop{padding-top: 20px;}
+.content_nav_r_pageTop ul{float: left}
+.content_nav_r_pageTop li{float: left}
+.content_nav_r_pageTop li a{float: left;width: 57px;height: 30px;border: 1px solid #e2e1e1;background: #e2e1e1;
+line-height: 30px;text-align: center}
+.content_nav_r_pageTop li a:hover{background: #FFF}
+.content_nav_r_pageTop li i{width: 7px;height: 5px;display: inline-block;margin-left: 5px;}
+.content_nav_r_pageTop_icon1{background: url(../images/index_arrow_white_down2.png) no-repeat}
+.content_nav_r_pageTop_icon2{background: url(../images/index_arrow_gray_up.png) no-repeat}
+
+.content_nav_r_pageTop_r{float: right}
+.content_nav_r_pageTop_r p{display: inline-block;padding-right: 22px;border-right: 1px solid #e2e1e1}
+.content_nav_r_pageTop_r p span{color: #f87d74;font-weight: bold;font-size: 14px;padding: 0 3px}
+.content_nav_r_pageTop_r>span{padding-left:24px;}
+.content_nav_r_pageTop_r>span i{display: inline-block;width: 25px;height: 14px;
+background: url(../images/nextpage.jpg) no-repeat;background-position-y: 2px;}
+.content_nav_r_pageTop_r>span i:hover{background-position: -25px 2px;}
+
+.content_nav_itme{overflow: hidden;width: 945px;padding-top: 35px;padding-bottom: 25px}
+.content_nav_itme ul{float: left;width: 975px}
+.content_nav_itme li{float: left;width: 300px;margin-right: 24px;border-bottom: 1px solid #d6d6d6;
+text-align: center;}
+.content_nav_itme li:hover,.content_nav_itme li:hover > div{border-bottom-color: #feb8ae;}
+
+.content_nav_itme img{width: 230px;height: 230px;margin:20px 30px}
+.content_nav_itme_title{color: #666;}
+.content_nav_itme li>span{display: block;color: #f6827a;padding: 12px 0 16px;}
+.content_nav_itme li>div{color: #999;margin-right: 10px;border-bottom: 5px solid #FFF;width: 100%;
+padding-bottom: 33px}
+.content_nav_itme li>div span{color: #333;padding-left: 6px;}

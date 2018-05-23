@@ -1,0 +1,35 @@
+.content_bg{width: 100%;height: 601px;background: url("http://img.zbird.cn/ww3/auth/auth_bg_new.jpg") no-repeat;
+background-position-x: 50%;}
+.content{width: 1180px;margin: 0 auto}
+.login_box{float: right;margin-right: 48px;padding-top: 96px;width: 366px;text-align: center}
+.login_box h2{float: left;font-size: 20px;height: 20px;line-height: 20px;}
+.login_box>a{float: right;height: 20px;line-height: 20px;padding: 3px 2px 0 0;color: #666}
+.login_box>a:hover{color: #FF8A81}
+.login_input{float: left;width: 284px;height: 335px;padding: 45px 41px 0;background: #FCEDEA;
+margin-top: 11px;}
+#username,#pwd{width: 264px;height: 30px;border: none;background: #FFF;margin-bottom: 22px;
+padding: 4px 0 0 15px;font-size: 10px;color: #999}
+#pwd{margin-bottom: 0px;}
+.err_info{color: #FF8A81;margin-top: 7px;display: block;margin-bottom: 1px;text-align: center;height: 12px;
+text-align: left}
+.err_info span{display: none}
+input::-webkit-input-placeholder{color:#999;}  /* 改变placeholder的颜色 */
+#check{border: none;background: #FFF;width: 13px;height:13px;margin-right: 10px;margin-top: 3px; float: left;}
+.auto_loading{float: left;margin-top: 3px;color: #666}
+form>a{float: right;color: #666}
+form>a:hover{float: right;color: #FF8A81}  
+#btn{width: 280px;height: 35px;border: none;margin-top: 20px;color: #FFF;font-size: 12px;background: #ff8a81}
+#btn:hover{opacity: 0.9;} 
+.login_word span{width: 50px;height: 1px;border-bottom: 1px solid #FFF;display: inline-block;margin: 0 20px;}
+.login_input h5{color: #666;margin-top: 40px;letter-spacing: 1px;color: #999;display: inline-block;}
+.login_icon{width: 100%;overflow: hidden;width: 320px;}
+.login_icon a{width: 46px; height: 46px;display: inline-block;margin: 20px 28px 0 0;}
+.login_icon img{width: 46px; height: 46px;}
+.login_icon1{background: url(../images/qq-btn.jpg) no-repeat}
+.login_icon1:hover{background-position-x: -46px}
+.login_icon2{background: url(../images/weixin-btn.jpg) no-repeat}
+.login_icon2:hover{background-position-x: -46px}
+.login_icon3{background: url(../images/sina-btn.jpg) no-repeat}
+.login_icon3:hover{background-position-x: -46px}
+.login_icon4{background: url(../images/zhifubao-btn.jpg) no-repeat;}
+.login_icon4:hover{background-position-x: -46px}

@@ -1,0 +1,19 @@
+.content_bg{width: 100%;height: 601px;background: url("http://img.zbird.cn/ww3/auth/auth_bg_new.jpg") no-repeat;
+background-position-x: 50%;}
+.content{width: 1180px;margin: 0 auto}
+.login_box{float: right;margin-right: 48px;padding-top: 96px;width: 366px;text-align: center}
+.login_box h2{float: left;font-size: 20px;height: 20px;line-height: 20px;}
+.login_box>a{float: right;height: 20px;line-height: 20px;padding: 3px 2px 0 0;color: #666}
+.login_box>a span{color: #FF8A81;padding-left: 10px;}
+.login_input{float: left;width: 284px;height: 335px;padding: 45px 41px 0;background: #FCEDEA;
+margin-top: 11px;}
+#username,#pwd,#confirmpwd{width: 264px;height: 30px;border: none;background: #FFF; padding: 4px 0 0 15px;font-size: 10px;
+color: #999;border: 1px solid #FCEDEA}
+.err_info1,.err_info2,.err_info3{color: #FF8A81;margin-top: 5px;display: block;margin-bottom: 1px;text-align: center;height: 16px;
+line-height: 12px;text-align: left;}
+.err_info1 span,.err_info2 span,.err_info3 span{display: none}
+input::-webkit-input-placeholder{color:#999;}  /* 改变placeholder的颜色 */
+#check{border: none;background: #FFF;width: 13px;height:13px;margin-right: 10px;margin-top: 3px; float: left;}
+.auto_loading{float: left;margin-top: 3px;color: #666}
+#register{width: 280px;height: 35px;border: none;margin-top: 20px;color: #FFF;font-size: 12px;background: #ff8a81}
+#register:hover{opacity: 0.9;} 

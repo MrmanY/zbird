@@ -1,0 +1,85 @@
+body{overflow-x:hidden;}
+body,h1,h3,h4,h2,h5,h6,ul,ol,p,fieldset,dd,dl,input,textarea,option,hr,td{margin:0;padding:0;}
+a{text-decoration:none; color:#333;}
+h1,h3,h4,h2,h5,h6,b,strong{font-weight:normal;}
+i,em{font-style:normal;}
+li{list-style:none;}
+img{border:none; display:block;}
+a,input{outline:none;}
+body{font:12px/1em "宋体";font-family: Arial, "宋体";}
+.clear:after{content:"."; display:block; clear:both;height:0; visibility:hidden;}
+.clear{zoom:1;}
+/* 登录 */
+.header{height: 34px; width: 100%; background: #F8E3DF}
+.h_top{height: 34px; width: 1180px; margin: 0 auto;}
+/* 左侧登录 */
+.top_left{float: left;height: 34px; line-height: 34px;}
+.top_left span{margin-right: 19px}
+.top_left a{margin-right: 17px;}
+/* 右侧菜单 */
+.top_right{float: right; height: 34px; line-height: 33px; position: relative;}
+.top_right li{float: left; margin-left: 14px;height: 33px;border: 1px solid #F8E3DF;border-bottom-color: #FBF2F1}
+/* 购物车*/
+#shop_car {padding: 0 14px 0 8px;position: relative;z-index: 10;line-height: 32px;height: 33px;}
+/* 鼠标放入有效果的li */
+/* 购物车数量 */
+#shop_car span{color:#FF8A81;font-size: 13px;font-weight: bold;margin-right: -1px;padding-left: 3px;}
+/* 鼠标移入有特效的 li 的效果 */
+#shop_car:hover,#my_bird:hover,#htc:hover{background: #fff; border-color: #FF8A81;
+border-bottom-color: #fff;}
+#shop_car a:hover{color: #FF8A81;}
+/* 图标 */
+#bag_img{width: 12px; height: 16px; float: left; background: url(../images/header_box.png) no-repeat;
+margin: 7px 10px 0 0}
+.icon_drop{width: 5px; height: 6px; display: inline-block; background: url(../images/icon_drop.png) 
+no-repeat;margin-left: 5px;}
+/* js控制效果，使.shop_car_list{display: block} */
+.shop_car_list{width: 240px; height: 61px;border: 1px solid  #FF8A81;position: absolute;left: 14px;
+top: 34px;line-height: 61px;text-align: center;background: #fff;display: none;z-index: 9;}
+/* 我的鸟巢 */
+#my_bird{margin-right: 8px;z-index: 3;padding:0 2px 0 7px;}
+#my_bird,#htc{position: relative;}
+/* 我的鸟巢  效果列表*/
+.my_bird_list{position: absolute;border: 1px solid  #FF8A81;position: absolute;left: -1px;top: 33px;
+width: 100%;padding: 4px 0;background: #fff;line-height: 20px;border-top: none;display: none}
+.my_bird_list li{margin-left: 5px;padding-bottom: 2px;border: none;height: 18px;}      
+.my_bird_list li a{color: #686767}
+.my_bird_list li a:hover{color: #FF8A81;}                                                                                          
+/* 手机官网 */
+#htc{z-index: 4;padding: 0 4px 0 6px;}
+.htc_list{width: 232px;height: 156px;position: absolute;top: 34px; right: 0; border: 1px solid  #FF8A81;
+background: url(../images/code_wechat.jpg) no-repeat;z-index: 3;display: none}
+
+/* 搜索 */
+.serch_bg{height: 95px;width: 100%;background: #FBF2F1}
+.serch{height: 95px;width: 1180px;margin: 0 auto}
+/* 左侧logo */
+.serch_left{float: left;}
+.logo,.pcslogan{float: left;}
+.logo{margin: 28px 0 0 35px;}
+.pcslogan{margin: 41px 0 0 48px;}
+
+/* 右侧服务框 */
+.services{position: fixed; top: 118px; right: 0; z-index: 900;width: 67px;}
+.services_item{margin-top: -1px}
+.services_item span,.services_item a{width: 67px; height: 67px;float: right;
+margin-bottom: 1px}
+.service_img{margin-left: -21px}
+.service_img1{background: url(../images/service_img1.gif)}
+.service_img1:hover{background: url(../images/service_img1_2.gif)}
+.service_img2{background: url(../images/service_imgs.png);text-align: center}
+.service_img2:hover{background-position-x:67px;}
+.service_img2 em{height: 60px;line-height: 52px;display: inline-block;color: #fff}
+.service_img3{background: url(../images/service_imgs.png);background-position-y:-67px;}
+.service_img3:hover{background-position:-67px -67px;}
+.service_img4{background: url(../images/service_imgs.png);background-position-y:-134px;}
+.service_img4:hover{background-position:-67px -134px;}
+.service_img5{background: url(../images/service_imgs.png);background-position-y:-201px;position: relative;}
+.service_img5 div{width: 206px;height: 135px;background: url(../images/service_code.jpg);
+display: none; position: absolute; left: -206px;bottom: 0;}
+.service_img5:hover div{display: block}
+
+/* 回到顶部 */
+.go_top {right: 15px;bottom: 15px;overflow: hidden;position: fixed;width: 40px;height: 40px;
+z-index: 999;background: url(http://img.zbird.cn/ww3/header/s_totop.jpg);background-position: 0px -40px;
+display: none;cursor: pointer;}

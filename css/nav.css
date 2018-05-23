@@ -1,0 +1,31 @@
+/* 右侧搜索 */
+.serch_right{float: right;height: 64px; padding-top: 31px;width: 312px;}
+.serch_box{width: 196px;height:30px;border: 1px solid #ccc;float: left}
+#text{ width: 146px;height: 30px; padding-left: 10px;float: left;border: none;color:#999;}
+#btn{width: 40px;height: 30px;background: #fff;border: none;background: url(../images/icon_ser.jpg)
+no-repeat;}
+.serch_gift{width: 96px;height: 32px;background:url(../images/serch_gift.jpg) no-repeat;float: left;
+margin-left: 18px}
+/* 导航栏 */
+.nav_bg{height: 33px;width: 100%; background: #909090;position: relative;}
+.navi{height: 100%;width: 1180px;margin: 0 auto}
+.navi li{float: left;}
+.navi a{float: left; width: 97px;height: 33px;line-height: 33px;text-align: center;color: #fff;
+font-size: 13px;letter-spacing: 1px}
+.navi a:hover{background: #fdb2a4}
+.navi_right{float: right}
+/* nav二级菜单 */
+
+.nav_menu_bg{background: #fff;position: absolute;height: 330px;width: 100%;z-index:10;top: 33px;
+display: none}
+.nav_menu{width: 1180px;margin: 0 auto;height: 100%}
+.nav_menu a{display: block;color:#666;letter-spacing: 1px;padding-top: 13px;}
+.nav_menu a:hover{color:#f6827a }
+.nav_menu_word1{margin:18px 0 0 30px;float: left;float: left;width: 153px;/*height: 305px*/}
+.nav_menu .nav_menu_bigworld{font-size: 24px;height: 24px;line-height: 24px;color: #000}
+.nav_menu .nav_menu_bigworld:hover{color: #000}
+.nav_menu .nav_menu_allzs{padding: 9px 0 7px;}
+.nav_menu_word2{width: 150px;float: left;width: 150px;margin-top: 82px;}
+.nav_menu_border{border-left:1px solid #e5e5e5;height: 265px;width: 1px;float: left;margin-top: 31px;}
+.nav_menu_word3{float: left; margin:82px 0 0 45px}
+.nav_menu img{float: right; width: 611px; height: 262px;margin-top: 20px;}
