@@ -1,0 +1,281 @@
+@import "./_common/color.scss";
+@import "./_reset/reset.scss";
+.header{width: $wid;height: 129px;background: url(../images/top.jpg) no-repeat;background-size:cover }
+.nav_bg{
+    background: #909090;height: $hegt; width: $wid;
+    .navi{
+        width: $wid1;height: $hegt;margin: 0 auto;
+        ul{
+            list-style: none;float: left; width: $wid;margin-left:1px;
+            li{
+                float: left;width: 97px;height: $hegt;line-height: $hegt;text-align: center;color: #FFF;
+                letter-spacing: 2px;
+            }
+            div{
+                float: right;
+            }   
+        }
+    }
+    @for $i from 1 through 10{
+        @if $i == 6{
+            .navi ul li:nth-child(6) {background: #FDB2A4} 
+        }     
+    } 
+}
+
+@for $i from 1 through 7{
+    .bg-#{$i}{position: relative;width: $wid;overflow: hidden;}    
+} 
+
+.fixd-widte{
+    width: 1349px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.bg-1{
+    height: 600px;background: #c5f6fd;
+    @for $i from 1 through 2{
+        .bg1-img#{$i}{background: url(nth($bgimg,$i)) bottom center no-repeat;position: absolute;
+        z-index: 1;}    
+    } 
+    .bg1-img1{
+        width: 1000px;
+        height: 100%;
+        top: 0;
+        right: 279px;
+    }
+    .bg1-img2{
+        width: 228px;
+        height: 137px;
+        top: 315px;
+        left: 380px;
+    }
+}
+.bg-2{
+    background: url(nth($bgimg,3)) no-repeat;
+    background-position: 50%;
+    height: 806px;
+    @for $i from 1 through 3{
+        .bg2-img#{$i}{background: url(nth($bgimg,$i + 3)) bottom center no-repeat;position: absolute;
+        z-index: 1;}    
+    } 
+    .bg2-img1{
+        width: 476px;
+        height: 600px;
+        top: -108px;
+        left: 100px;
+    }
+    .bg2-img2{
+        width: 700px;
+        height: 100%;
+        top: 0px;
+        left: 520px;
+    }
+    .bg2-img3{
+        width: 544px;
+        height: 413px;
+        top: 374px;
+        left: 180px;
+    }
+}
+
+.bg-3{
+    background: url(nth($bgimg,7)) no-repeat;
+    background-position: 50%;
+    height: 594px;
+    .bg3-p1{
+        background: url(nth($bgimg,8)) top center no-repeat;
+        width: 520px;
+        height: 35px;
+        position: absolute;
+        z-index: 1;
+        bottom: 33px;
+        left: 120px
+    }
+    .bg3-img1{
+        background: url(nth($bgimg,9)) center no-repeat;
+        width: 450px;
+        height: 179px;
+        position: absolute;
+        z-index: 1;
+        top: 250px;
+        right: 120px;
+    }
+    .bg3-p2{
+        background: url(nth($bgimg,10)) top center no-repeat;
+        width: 300px;
+        height: 50px;
+        position: absolute;
+        z-index: 2;
+        bottom: 21px;
+        right: 120px;
+    }
+}
+.bg-4{
+    background: url(nth($bgimg,11)) no-repeat;
+    background-position: 50%;
+    height: 594px;
+    .bg4-img1{
+        background: url(nth($bgimg,12)) top center no-repeat;
+        width: 297px;
+        height: 386px;
+        position: absolute;
+        z-index: 1;
+        top: 110px;
+        left: 230px;
+    }
+    .bg4-p1{
+        background: url(nth($bgimg,13)) top center no-repeat;
+        width: 235px;
+        height: 50px;
+        position: absolute;
+        z-index: 2;
+        bottom: 37px;
+        left: 220px;
+    }
+    .bg4-p2{
+        background: url(nth($bgimg,14)) top center no-repeat;
+        width: 389px;
+        height: 50px;
+        position: absolute;
+        z-index: 1;
+        bottom: 33px;
+        right: 165px;
+    }
+}
+.bg-5{
+    background: url(nth($bgimg,15)) no-repeat;
+    background-position: 50%;
+    height: 594px;
+    .bg5-img1{
+        background: url(nth($bgimg,16)) center no-repeat;
+        width: 478px;
+        height: 179px;
+        position: absolute;
+        z-index: 1;
+        top: 260px;
+        right: 124px;
+    }
+    .bg5-p1{
+        background: url(nth($bgimg,17)) top center no-repeat;
+        width: 491px;
+        height: 50px;
+        position: absolute;
+        z-index: 1;
+        bottom: 33px;
+        left: 140px;
+    }
+    .bg5-p2{
+        background: url(nth($bgimg,18)) top center no-repeat;
+        width: 231px;
+        height: 50px;
+        position: absolute;
+        z-index: 2;
+        bottom: 37px;
+        right: 225px;
+    }
+}
+.bg-6{
+    background: url(nth($bgimg,19)) no-repeat;
+    background-position: 50%;
+    height: 594px;
+    .bg6-img1{
+        background: url(nth($bgimg,20)) center no-repeat;
+        width: 198px;
+        height: 386px;
+        position: absolute;
+        z-index: 1;
+        top: 100px;
+        left: 160px;
+    }
+    .bg6-p1{
+        background: url(nth($bgimg,21)) top center no-repeat;
+        width: 230px;
+        height: 50px;
+        position: absolute;
+        z-index: 2;
+        bottom: 37px;
+        left: 140px;
+    }
+    .bg6-p2{
+        background: url(nth($bgimg,22)) top center no-repeat;
+        width: 306px;
+        height: 50px;
+        position: absolute;
+        z-index: 1;
+        bottom: 33px;
+        right: 120px;
+    }
+}
+.bg-7{
+    background: url(nth($bgimg,23)) no-repeat;
+    background-position: 50%;
+    height: 569px;
+    .bg7-p1{
+        background: url(nth($bgimg,24)) top center no-repeat;
+        width: 478px;
+        height: 90px;
+        position: absolute;
+        z-index: 1;
+        bottom: 237px;
+        left: 140px;
+    }
+}
+.bg-8{
+    background: url(nth($bgimg,25)) no-repeat;
+    width: 1180px;
+    height: 442px;
+    margin: 52px auto 0 auto;
+    position: relative;
+    .bg8-img1{
+        background: url(nth($bgimg,26)) top center no-repeat;
+        width: 358px;
+        height: 263px;
+        position: absolute;
+        z-index: 1;
+        bottom: 100px;
+        right: 80px
+    }
+}
+.bg-9{
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    background: url(nth($bgimg,27)) no-repeat center 35px;
+    clear: both;
+}
+.bg-10{
+    width: 1180px;
+    height: 442px;
+    margin: 52px auto 0 auto;
+    position: relative;
+    .bg10-img1{
+        background: url(nth($bgimg,28)) top center no-repeat;
+        width: 382px;
+        height: 324px;
+        float: left;
+        margin-right: 16px
+    }
+    .bg10-img2{
+        background: url(nth($bgimg,29)) top center no-repeat;
+        width: 382px;
+        height: 324px;
+        float: left;
+        margin-right: 16px
+    }
+    .bg10-img3{
+        background: url(nth($bgimg,30)) top center no-repeat;
+        width: 382px;
+        height: 324px;
+        float: left;
+    }
+}
+.fot{
+    height: 529px;
+    width: $wid;
+    background: url(../images/fot-img.jpg) no-repeat;
+    background-size:cover
+}
