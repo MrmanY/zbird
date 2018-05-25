@@ -15,10 +15,10 @@ $(function(){
         init(){     // 建立多个轮播效果
             if(this.data == 1){     // 1. 淡入淡出
                 this.banner1();
-            } else if(this.data == 2){  // 2. 无缝轮播，向左滑动。
+            } else if(this.data == 2){   // 2. 无缝轮播，向左滑动。
                 this.banner2();
             }else if(this.data == 3){
-                this.banner3();
+                this.banner3(); // 3 .每次变换图片(兄弟消失，要消失的出现)
             }
             this.motion_banner();   // 轮播图自行运动。
             this.move_banner_fspan()  // 移动span，图片移动

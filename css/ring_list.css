@@ -84,3 +84,4 @@ padding-bottom: 33px;padding-left: 10px;}
 .content_nav_page ul{float: right}
 .content_nav_page li{float: left;font-weight: bold;height: 31px;width: 31px;
 border: 1px solid #dedfe0;font-size: 14px;text-align: center;line-height: 31px;margin-right: 8px;}
+.content_nav_page li a{display: inline-block;width: 31px;height: 31px;}

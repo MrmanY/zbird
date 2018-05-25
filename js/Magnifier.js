@@ -34,15 +34,11 @@ $(function(){
 			// 边界检测;
 			var maxWidth = this.small_ele.width() - this.box_ele.width();
 			var maxHeight = this.small_ele.height() - this.box_ele.height();
-
 			eleX = eleX <= 0 ? 0 : eleX;
 			eleX = eleX >= maxWidth ?  maxWidth : eleX;
-			
 			eleY = eleY <= 0 ? 0 : eleY;
 			eleY = eleY >= maxHeight ?  maxHeight : eleY;
-
 			this.box_ele.css({left:eleX,top:eleY})
-
 			this.propX = - eleX * 2
 			this.propY = - eleY * 2
 		},

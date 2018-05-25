@@ -21,7 +21,7 @@ $(function(){
         },
         mouse_enter(){  // 鼠标移入，相应对象显示消失
             var _this = this; 
-            $.each(this.options,function(ele,changeEle){     //对对象遍历，获取 ele => 添加事件的元素,changeEle= >显示隐藏的元素 
+            $.each(this.options,function(ele,changeEle){     //  对对象遍历，获取 ele => 添加事件的元素,changeEle= >显示隐藏的元素 
                 // console.log($(ele),$(changeEle));
                 
                 if($(ele).length > 1 && $(ele).length < 10){   // 若传入对象 大于1个，对其再次遍历，使每个元素都添加上事件
@@ -138,7 +138,7 @@ $(function(){
             })
         }
     }
-
+    //鼠标移入，相应对象显示消失
     var options={   // 要触发事件的对象的id/class，和要进行变换的对象的id/class 
         "#shop_car":".shop_car_list",
         "#my_bird":".my_bird_list",
@@ -146,38 +146,43 @@ $(function(){
         ".leve_nav":".nav_menu_bg",
         ".shop_identity_item span":".shop_stores",
     }
-    var options2={  
+    var options2={  // 鼠标移入颜色变红，其他兄弟颜色变黑，并且相应的地方显示该元素详情。
         ".shop_stores span":".shop_stores_word"
     }
-    var array =[
+    var array =[    // 鼠标移入图片透明度改变
         ".g_top_r img",
         ".g_series_banner img",
         ".g_recommend_banner_box img",
         ".g_image_text img"
     ]
     new Animation(options,options2,array,".g_recommend_banner_box ul",".g_recommend_iconl",".g_recommend_iconr"); 
+    // 参数4：鼠标移入，该元素向上运动
+    // 参数5，6：对特殊对象的处理（点击按钮相应图片移动）
 
+    //cookie 值判断，将购物车中的商品数量显示在右侧服务框上
     if(!$.cookie("goods")) return;
     var goodsArray = JSON.parse($.cookie("goods"));
-    console.log(goodsArray);
+    // console.log(goodsArray);
     
     var sum = 0;
     goodsArray.forEach(function(item){
         sum +=item.num *1;
     })
     $(".service_img2").children().html(sum);
+
+    // 回到顶部事件，当滚动长度为700像素时显示回到顶部按钮
+    document.onscroll =function(){
+        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        if(scrollTop >= 700){
+            $(".go_top").css({display:"block"})
+            $(".go_top").on("click",function(){
+                document.documentElement.scrollTop = 0;
+            
+            })
+        }else{
+            $(".go_top").css({display:"none"})
+        }
+        
+    }
 })
 
-document.onscroll =function(){
-    var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    if(scrollTop >= 700){
-        $(".go_top").css({display:"block"})
-        $(".go_top").on("click",function(){
-            document.documentElement.scrollTop = 0;
-           
-        })
-    }else{
-        $(".go_top").css({display:"none"})
-    }
-    
-}
